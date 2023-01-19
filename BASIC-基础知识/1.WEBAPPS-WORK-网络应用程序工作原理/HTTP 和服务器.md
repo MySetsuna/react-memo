@@ -33,14 +33,15 @@ HTTP 是一种纯文本、“无状态”、基于请求/响应的协议。换�
 
 ### 典型的 HTTP 请求如下所示
 
-```GET <https://www.example.com/description.html> HTTP/1.1
+`GET <https://www.example.com/description.html> HTTP/1.1
 Host: www.example.com
 User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) Chrome/16.0.912.75 Safari/535.7
 Accept: text/html,application/xhtml+xml
 Referer: <http://www.google.com/url?&q=example>
-Accept-Language: en-US,en```
+Accept-Language: en-US,en`
 
 ### HTTP 标头
+
 有许多标头字段可以通过 HTTP 发送，客户端和服务器都可以发送它们定义的其他任意标头。一些最常见的标题是：
 
 要求
